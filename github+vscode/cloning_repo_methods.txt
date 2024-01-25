@@ -1,0 +1,18 @@
+method 1 : using ssh keys 
+
+mehod 2: zip download it 
+
+method 3: clone it using terminal or git bash .
+
+////////////////////////////////////////////////
+
+
+how many ways are there to clone repository ?
+
+There are several ways to clone a repository from GitHub:
+Using the Command Line: This is the most common method. You can use the git clone command followed by the URL of the repository to clone it to your local machine12.
+Using GitHub Desktop: This is a graphical user interface (GUI) method. You can clone and open the repository with GitHub Desktop3.
+Using Git GUI: This is another GUI method. You can use a Git-supported software to clone the repository2.
+Using Visual Studio: Visual Studio also provides an option to clone repositories2.
+Using GitHub CLI: GitHub CLI is a command-line tool that brings pull requests, issues, and other GitHub concepts to the terminal next to where you are already working with git and your code1.
+Remember, before cloning a repository, you should navigate to the main page of the repository on GitHub.com, click on the Code button, and then copy the URL for the repository1.

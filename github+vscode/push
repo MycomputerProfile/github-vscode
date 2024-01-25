@@ -1,0 +1,20 @@
+what is push in git ?
+
+The git push command in Git is used to upload local repository content to a remote repository. git push updates the remote branch with local commits. It is one of the four commands in Git that prompts interaction with the remote repository1.
+
+Here’s how you can think of git push:
+
+Update: It updates the remote branch with local commits1.
+Publish: It makes your commits accessible to others who you may be collaborating with1.
+By default, git push only updates the corresponding branch on the remote. So, if you are checked out to the main branch when you execute git push, then only the main branch will be updated1.
+
+Here are some common usages and options for git push:
+
+git push -f: Force a push that would otherwise be blocked, usually because it will delete or overwrite existing commits1.
+git push -u origin [branch]: Useful when pushing a new branch, this creates an upstream tracking branch with a lasting relationship to your local branch1.
+git push --all: Push all branches1.
+git push --tags: Publish tags that aren’t yet in the remote repository1.
+It’s always a good idea to use git status to see what branch you are on before pushing to the remote1. As a best practice, it’s important to run the git pull command before you push any new changes to the remote branch. This will update your local branch with any new changes that may have been pushed to the remote from other contributors1.
+
+
+////////////////////////////////////////////////////////////////////////////////////////

@@ -1,0 +1,25 @@
+what are the stages of commit ?
+
+Files in a Git repository go through three stages before being under version control12:
+
+Untracked: The file exists, but is not part of Git’s version control12.
+Staged: The file has been added to Git’s version control but changes have not been committed12. This is where git add comes into play. You can add the changes you made to a file to staging using the command $ git add <path-to-file>3. If you want to add all the files at once, you can use $ git add .3.
+Committed: The change has been committed12. This is where git commit comes into play. To commit use the command: $ git commit -m "some descriptive message"3. This moves files from the Staging Environment to the repository, with the message you provide4.
+These stages are important as they give you fine-grained control over the versions of your files. You can easily change your mind when things are in staging, but once you have made a commit things are harder to change (although not impossible!)3.
+
+In Git, the process of committing changes involves several stages:
+
+1. **Working Directory**: This is where you'll be doing all the work: creating, editing, deleting and organizing files.
+
+2. **Staging Area (or Index)**: Before a commit, changes are first recorded in a staging area. The `git add` command is used to add changes to the staging area¹. This is like preparing a draft of what you want to commit. You can add partial changes, single files, or multiple files to the staging area².
+
+3. **Commit**: When you're ready, you use the `git commit` command to save your changes. This takes the files as they are in the staging area and stores that snapshot permanently to your Git directory¹. A commit is a snapshot of your repository at a specific time, and it includes metadata like the author, timestamp, and a message describing the changes².
+
+Remember, the staging area helps you craft your commits properly. Commits should be logical, atomic units of change that represent a specific idea². This means you can stage parts of changes, or changes in some files, and commit them separately from others.
+
+I hope this helps! Let me know if you have any other questions. 😊
+
+Source: Conversation with Bing, 11/11/2023
+(1) Staging vs. Committing: an explanation for Git beginners. https://practicalgit.com/blog/staging-vs-commit.html.
+(2) Git Guides - git commit · GitHub. https://github.com/git-guides/git-commit.
+(3) Git Commit - W3Schools. https://www.w3schools.com/git/git_commit.asp.

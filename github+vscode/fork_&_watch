@@ -1,0 +1,43 @@
+what does the fork mean ? 
+
+Forking in GitHub refers to creating a personal copy of an existing repository within GitHub. When you fork a repository, you essentially make a duplicate of it, enabling you to freely experiment with the codebase without affecting the original project. Here’s how it works:
+
+Pull Requests:
+
+If you’ve made improvements or fixes in your fork, you can submit a pull request to the original repository.
+A pull request asks the project maintainers to review your changes and consider merging them into the original repository.
+It’s a way to contribute back to the project while keeping your fork separate.
+In a nutshell, forking allows you to experiment, contribute, and propose changes without directly altering the original project. It’s like making a copy of the question paper for students to work on, while the teacher retains the master copy for assessment! 📝🔗
+
+Remember, forking is a powerful feature in collaborative software development, especially in open-source projects. It helps maintain the integrity of the main repository while encouraging community contributions. 🌟
+
+
+////////////////////////////////////////////////////////////////////////////////
+
+what is watch in github ?
+
+In GitHub, the concept of “watching” is related to staying informed about activity in a repository. Here’s what it means:
+
+Watching a Repository:
+
+When you watch a repository, you’re essentially subscribing to receive notifications about various events related to that repository.
+These events include:
+Pull Requests (PRs): When someone opens or updates a pull request.
+Issues: When new issues are created or existing ones are modified.
+Commits: When code changes are pushed to the repository.
+Releases: When new versions of the software are published.
+Other Repository Activity: Such as comments, wiki edits, and more.
+Why Watch?:
+
+Stay Updated: Watching a repository helps you stay informed about changes and discussions related to projects you’re interested in.
+Collaboration: If you’re part of a team or community, watching a repository ensures you don’t miss important updates.
+Customization: You can choose which types of notifications you want to receive (e.g., only PRs, only issues, or everything).
+How to Watch:
+
+To watch a repository, simply click the “Watch” button at the top right of the repository page.
+You can also unwatch a repository anytime if you no longer want to receive notifications.
+Difference Between Watching and Starring:
+
+Watching is about notifications. It keeps you informed.
+Starring, on the other hand, is like bookmarking a repository. It doesn’t provide notifications but helps you keep track of repositories you find interesting.
+In summary, watching a repository in GitHub ensures you’re in the loop about all the exciting developments happening in that project! 🌟👀
